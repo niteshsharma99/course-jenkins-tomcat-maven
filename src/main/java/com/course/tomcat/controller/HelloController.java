@@ -18,7 +18,8 @@ public class HelloController {
     int random(){
         return ThreadLocalRandom.current().nextInt(0,1000);
     }
- 
+
+# Adding new EndPoint 
     @GetMapping(value = "/hero")
     String hero(){
         return "My favorite superhero is Batman";
